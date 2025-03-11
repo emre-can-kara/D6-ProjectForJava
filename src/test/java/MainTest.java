@@ -88,9 +88,9 @@ public class MainTest {
     public void testBedInstanceTypes() throws NoSuchFieldException {
         assertThat(bed.getStyle(), instanceOf(String.class));
         assertThat(bed.getHeight(), instanceOf(Integer.class));
-        assertThat(bed.getQuilts(), instanceOf(Integer.class));
         assertThat(bed.getSheets(), instanceOf(Integer.class));
         assertThat(bed.getPillows(), instanceOf(Integer.class));
+        assertThat(bed.getQuilts(), instanceOf(Integer.class));
     }
 
     @DisplayName("Bed make methodu doğru çalışıyor mu?")
